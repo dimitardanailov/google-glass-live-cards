@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GoogleGlassCards</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu">Menu</string>
+
+    <string name="home_team">Home team</string>
+    <string name="away_team">Away team</string>
+    
+    <string name="game_quarter">Game Quarter</string>
+    
+    <string name="stop">Stop</string>
+    <string name="low_frequency">Low frequency</string>
+    <string name="high_frequency">High frequency</string>
+    <string name="opengl">OpenGL</string>
+    
+</resources>

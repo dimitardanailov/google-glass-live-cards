@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.googleglasscards.GoogleGlassCardActivity" >
+
+    <item
+        android:id="@+id/stop"
+        android:title="@string/stop"
+        android:icon="@drawable/ic_no_50" />
+
+    <item
+        android:id="@+id/low_frequency"
+        android:title="@string/low_frequency"
+        android:icon="@drawable/ic_computer_50" />
+    
+    <item
+        android:id="@+id/high_frequency"
+        android:title="@string/high_frequency"
+        android:icon="@drawable/ic_mobile_phone_50" />
+    
+    <item
+        android:id="@+id/opengl"
+        android:title="@string/opengl"
+        android:icon="@drawable/ic_game_50" />
+    
+</menu>
