@@ -1,7 +1,9 @@
 package com.googleglasscards;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -13,6 +15,19 @@ public class GoogleGlassCardActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_google_glass_card);
     }
+    
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+    	// Load Menu
+    	if (keyCode == KeyEvent.KEYCODE_DPAD_CENTER) {
+    		MenuActivity menuActivity = new MenuActivity();
+    		menuActivity.openOptionsMenu();
+    		
+    		return true;
+    	}
+    	
+    	return false;
+    };
 
 
     @Override
